@@ -26,7 +26,7 @@ const PortfolioThree = () => {
                                         <p>{data.subtitle}</p>
                                     </div>
                                     <div className="portfolio__two-single-item-content-right">
-                                        <Link href=""><i className="fas fa-arrow-right"></i></Link>
+                                        <Link href={`/portfolio/${data.id}`}><i className="fas fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

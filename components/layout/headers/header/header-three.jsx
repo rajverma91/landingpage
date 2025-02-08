@@ -2,8 +2,8 @@
 import Link from 'next/link';
 import MainMenu from '../header-menu';
 import { useEffect, useState } from 'react';
-import logo1 from "../../../../public/assets/img/borning-png.png";
-import logo2 from "../../../../public/assets/img/footer-logo.png";
+import logo1 from "../../../../public/assets/img/logo-1.png";
+import logo2 from "../../../../public/assets/img/logo-2.png";
 import MobileMenuPopup from '../mobile-menu/menu-area';
 
 const HeaderThree = ({variant}) => {
@@ -36,7 +36,7 @@ const HeaderThree = ({variant}) => {
                     <div className="header__area-menubar-right">
                         <div className="header__area-menubar-right-box">
                             <div className="header__area-menubar-right-box-btn">
-                                <Link className="btn-one" href="">Get Quote<i className="fas fa-arrow-right"></i></Link>
+                                <Link className="btn-one" href="/request-quote">Get Quote<i className="fas fa-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="header__area-menubar-right-responsive-menu menu__bar">

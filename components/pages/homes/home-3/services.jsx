@@ -10,7 +10,7 @@ const ServicesThree = () => {
                         <div className="col-xl-6">
                             <div className="services__three-title text-center">
                                 <span className="subtitle-one">Latest service</span>
-                                <h2>Transforming Spaces into Virtual <span className="highlighted-two">Experiences </span></h2>
+                                <h2>Optimized IT Services for Your <span className="highlighted-two">Business</span></h2>
                             </div>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const ServicesThree = () => {
                                         <div className="services__three-single-service-content">
                                             <h4>{firstAndSecondWord}</h4>
                                             <p>{data.des}</p>
-                                            <Link href="" className="btn-three">Read More<i className="fas fa-chevron-right"></i></Link>
+                                            <Link href={`/services/${data.id}`} className="btn-three">Read More<i className="fas fa-chevron-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>

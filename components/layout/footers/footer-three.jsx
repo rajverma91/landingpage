@@ -1,6 +1,6 @@
 import Link from "next/link";
-import logo from "../../../public/assets/img/footer-logo.png";
-
+import logo from "../../../public/assets/img/logo-2.png";
+import servicesData from "@/components/data/services-data";
 import Social from "@/components/data/social";
 
 const FooterThree = () => {
@@ -30,7 +30,17 @@ const FooterThree = () => {
                     <div className="col-xl-3 col-md-6 col-sm-5 sm-mb-30">
                         <div className="footer__three-widget border-one">
                             <h4 className="ml-60">Our Services</h4>
-                            
+                            <div className="footer__three-widget-solution">
+                                <ul>
+									{servicesData.slice(0, 4).map((data, id) => {
+										const words = data.title.split(' ');
+										const firstAndSecondWord = words.slice(0, 2).join(' ');
+										return (
+											<li key={id}><Link href={`/services/${data.id}`}><i className="far fa-chevron-double-right"></i>{firstAndSecondWord}</Link></li>
+										);
+									})}
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div className="col-xl-3 col-md-6 col-sm-5 sm-mb-30">
@@ -38,10 +48,10 @@ const FooterThree = () => {
                             <h4 className="ml-60">Resources​</h4>
                             <div className="footer__three-widget-solution">
                                 <ul>
-									<li><Link href="/"><i className="far fa-chevron-double-right"></i>Service</Link></li>
-									<li><Link href="/"><i className="far fa-chevron-double-right"></i>FAQ</Link></li>
-									<li><Link href="/"><i className="far fa-chevron-double-right"></i>Testimonial</Link></li>
-									<li><Link href="/"><i className="far fa-chevron-double-right"></i>About Us</Link></li>
+									<li><Link href="services"><i className="far fa-chevron-double-right"></i>Service</Link></li>
+									<li><Link href="faq"><i className="far fa-chevron-double-right"></i>FAQ</Link></li>
+									<li><Link href="testimonial"><i className="far fa-chevron-double-right"></i>Testimonial</Link></li>
+									<li><Link href="about"><i className="far fa-chevron-double-right"></i>About Us</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -65,7 +75,7 @@ const FooterThree = () => {
                                     </div>
                                     <div className="footer__three-widget-location-item-info">
                                         <span>Address</span>
-                                        <Link href="">321 Data Drive, Cloud City, WA 67890</Link>
+                                        <Link href="https://google.com/maps">321 Data Drive, Cloud City, WA 67890</Link>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +88,7 @@ const FooterThree = () => {
                     <div className="row justify-content-between copyright__one-container-area">
                         <div className="col-xl-5 col-lg-6"> 
                             <div className="copyright__one-left">
-                                <p>© Raj  2024 | All Rights Reserved</p>
+                                <p>© ThemeOri  2024 | All Rights Reserved</p>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-6">

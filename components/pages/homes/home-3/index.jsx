@@ -13,7 +13,6 @@ import ChooseUsThree from "./choose-us";
 import TestimonialThree from "./testimonial";
 import Work from "./work";
 import BlogThree from "./blog";
-import BackgroundThree from "./backgrounddata";
 
 const HomeThree = () => {
     return (
@@ -22,10 +21,9 @@ const HomeThree = () => {
             <HeaderThree  />
             <BannerThree />
             <ServicesThree />
-            <BackgroundThree />
             <TextSlide />
             <AboutThree />
-            {/* <PortfolioThree /> */}
+            <PortfolioThree />
             <Faq />
             <ChooseUsThree />
             <TestimonialThree />

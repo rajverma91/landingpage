@@ -5,20 +5,16 @@ const Faq = () => {
     const [activeIndex, setActiveIndex] = useState(1);
     const faqs = [
         {
-            question: "What services does Borning Studio offer?",
-            answer: "Borning Studio specializes in creating immersive AR/VR solutions tailored for industries like real estate, education, hospitality, and retail. Our services include virtual tours, 3D walkthroughs, aerial 360° videos, digital twins, and XR solutions to provide interactive and visually compelling experiences."
+            question: "What services do you offer?",
+            answer: "We specialize in a broad range of IT services, including software development, cloud services, cyber security, IT consulting, and tech support. Visit our Services page for detailed information."
         },
         {
-            question: "How can a virtual tour benefit my business?",
-            answer: "Virtual tours are a powerful tool for enhancing customer engagement and boosting sales. They allow clients to explore your spaces or properties remotely, providing a realistic and interactive experience that builds trust and saves time."
+            question: "How can I request a quote for my project?",
+            answer: "Fill out the contact form on this page, providing as many details as possible about your project. A representative will be in touch within one business day to discuss your needs and provide a tailored quote."
         },
         {
-            question: "Can Borning Studio customize solutions for my specific needs?",
-            answer: "Absolutely! Our team of experts collaborates with you to understand your unique requirements. Whether it’s for a luxury real estate project, a university campus, or a corporate office, we design and develop solutions that align perfectly with your goals."
-        },
-        {
-            question: "What makes Borning Studio different from other AR/VR providers?",
-            answer: " At Borning Studio, we combine innovation, creativity, and precision to deliver high-quality immersive experiences. Our DGCA-certified pilots, ISO-certified processes, and cutting-edge technology ensure exceptional results, making us a trusted partner for forward-thinking businesses."
+            question: "What is your process for client inquiries?",
+            answer: "We prioritize getting back to you quickly. After an inquiry is submitted, it'll be routed to the appropriate team, who will review your information and respond with the next steps or a request for further details."
         },
     ];
     const toggleFaq = (index) => {
@@ -32,8 +28,8 @@ const Faq = () => {
                     <div className="col-xl-6">
                         <div className="faq__two-title">
                             <span className="subtitle-one">Ask Question</span>
-                            <h2>Your Questions,   <span className="highlighted-two">Answered</span> Clearly</h2>
-                            <p>Explore our comprehensive FAQ to understand how Borning Studio transforms your vision into immersive experiences.</p>
+                            <h2>Unraveling IT <span className="highlighted-two">Complexities</span> FAQs</h2>
+                            <p>Business consulting services can benefit your company  providing man or objective insights, identifying areas for improv  streamlining processes, developing strategies for grow</p>
                         </div>
                         <div className="award">
                             <div className="award-wrapper">
@@ -44,7 +40,7 @@ const Faq = () => {
                                     <h3 className="counter"><Count number={20}/></h3>
                                     <h3>+</h3>
                                 </div>
-                                <span>Winning Awards</span>
+                                <span>Winning award</span>
                             </div>
                         </div>
                     </div>

@@ -19,7 +19,7 @@ const BannerThree = () => {
                 }}
                 modules={[Autoplay, EffectFade]}
             >
-                {/* <SwiperSlide>
+                <SwiperSlide>
                     <div className="banner__three-single-slide" style={{backgroundImage: `url(${banner1.src})`}}>
                         <div className="banner__three-bg-shape-overlay" style={{backgroundImage: `url(${shape.src})`}}></div>
                         <div className="container">
@@ -27,16 +27,15 @@ const BannerThree = () => {
                                 <div className="col-xl-10">
                                     <div className="banner__three-content">
                                         <span className="subtitle-one">Digital Growth</span>
-                                        <h2>Redefining Reality Through  <span className="text-bordered">Immersive </span>Experiences</h2>
-                                        <p>Our work transforms environments into interactive journeys—whether it’s 
-                                            showcasing architectural marvels, enhancing educational spaces, or revolutionizing corporate presentations.</p>
+                                        <h2>Empowering Organizations through <span className="text-bordered">Tech</span>nology</h2>
+                                        <p>Lorem ipsum dolor sit amet, conse ct etur adipiscing elit. Sed sit amet rcus nunc. Duis egestas ac ante sed tincidun</p>
                                         <Link href="/about" className="btn-two">Read More<i className="fas fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </SwiperSlide> */}
+                </SwiperSlide>
                 <SwiperSlide>
                     <div className="banner__three-single-slide" style={{backgroundImage: `url(${banner2.src})`}}>
                         <div className="banner__three-bg-shape-overlay" style={{backgroundImage: `url(${shape.src})`}}></div>
@@ -44,11 +43,10 @@ const BannerThree = () => {
                             <div className="row justify-content-center">
                                 <div className="col-xl-10">
                                     <div className="banner__three-content">
-                                        {/* <span className="subtitle-one">Digital Growth</span> */}
-                                        <h2>Redefining Reality Through Immersive Experiences</h2>
-                                        <p>Our work transforms environments into interactive journeys—whether it’s 
-                                        showcasing architectural marvels, enhancing educational spaces, or revolutionizing corporate presentations.</p>
-                                        <Link href="/" className="btn-two">Read More<i className="fas fa-arrow-right"></i></Link>
+                                        <span className="subtitle-one">Digital Growth</span>
+                                        <h2>Driving Cutting Edge Innovations</h2>
+                                        <p>Explore the visionary ideas and groundbreaking advancements propelling technology forward. Experience the power of innovation</p>
+                                        <Link href="/about" className="btn-two">Read More<i className="fas fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

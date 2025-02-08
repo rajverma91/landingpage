@@ -402,15 +402,15 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/swiper/swiper-bundle.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************/
 /**
- * Swiper 11.2.2
+ * Swiper 11.1.5
  * Most modern mobile touch slider and framework with hardware accelerated transitions
  * https://swiperjs.com
  *
- * Copyright 2014-2025 Vladimir Kharlampidi
+ * Copyright 2014-2024 Vladimir Kharlampidi
  *
  * Released under the MIT License
  *
- * Released on: January 31, 2025
+ * Released on: July 15, 2024
  */
 
 /* FONT_START */
@@ -1037,7 +1037,7 @@ button.swiper-pagination-bullet {
 .swiper-fade .swiper-slide-active .swiper-slide-active {
   pointer-events: auto;
 }
-.swiper.swiper-cube {
+.swiper-cube {
   overflow: visible;
 }
 .swiper-cube .swiper-slide {
@@ -1099,7 +1099,7 @@ button.swiper-pagination-bullet {
           backface-visibility: hidden;
 }
 /* Cube slide shadows end */
-.swiper.swiper-flip {
+.swiper-flip {
   overflow: visible;
 }
 .swiper-flip .swiper-slide {
@@ -1131,7 +1131,7 @@ button.swiper-pagination-bullet {
   overflow: hidden;
   transition-property: transform, opacity, height;
 }
-.swiper.swiper-cards {
+.swiper-cards {
   overflow: visible;
 }
 .swiper-cards .swiper-slide {
@@ -12015,15 +12015,3 @@ Responsive Menu Css
   background-color: var(--color-1);
   height: 100vh;
 }/*# sourceMappingURL=style.css.map */
-
-
-
-.background__three-title {
-  padding-bottom: 0;
-}
-.services__three_bg{
-  background-position: center;
-  /* background-size: contain; */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}

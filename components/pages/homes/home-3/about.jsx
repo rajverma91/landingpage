@@ -11,25 +11,21 @@ const AboutThree = () => {
                     <div className="col-xl-6 col-lg-6 col-md-10 col-sm-12">
                         <div className="about__three-content">
                             <span className="subtitle-one">About us</span>
-                            <h2>Uniting Creativity and  <span className="highlighted-two">Collaboration</span></h2>
-                            <p>At Borning Studio, we believe in the power of collaboration to bring ideas to life. Together, we transform concepts into immersive AR/VR experiences that captivate and inspire.
-                            </p>
+                            <h2>Uniting Ideas Power of <span className="highlighted-two">Collaboration</span></h2>
+                            <p>Harness the collective brilliance of teamwork with our model for collaboration, fostering innovation and thought integration</p>
                             <div className="about__three-content-service">
                                 <div className="about__three-content-service-single">
                                     <i className="flaticon-good-feedback"></i>
                                     <div className="content">
-                                        <h4>Seamless Virtual Solutions
-                                        </h4>
-                                        <p>Our team is dedicated to crafting secure, interactive, and tailored virtual environments that align perfectly with your vision and goals.</p>
+                                        <h4>CyberSecure IT</h4>
+                                        <p>IT Technology is an category encompassing aspects  category encompassing aspects</p>
                                     </div>
                                 </div>
                                 <div className="about__three-content-service-single">
                                     <i className="flaticon-incoming-message"></i>
                                     <div className="content">
-                                        <h4>Taking Your Experience Further
-                                        </h4>
-                                        <p>We’re here to elevate your journey with innovative, personalized virtual solutions designed to leave a lasting impact on your audience.
-                                        </p>
+                                        <h4>Power up your IT</h4>
+                                        <p>IT Technology is an category encompassing aspects  category encompassing aspects</p>
                                     </div>
                                 </div>
                             </div>

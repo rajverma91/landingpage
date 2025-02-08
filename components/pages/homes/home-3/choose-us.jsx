@@ -30,7 +30,7 @@ const ChooseUsThree = () => {
                                     <span>Data Analytics Consulting</span>
                                 </div>
                             </div>
-                            <Link href="/" className="btn-one">Learn More
+                            <Link href="/services" className="btn-one">Learn More
                                 <i className="fas fa-arrow-right"></i>
                             </Link>
                         </div>

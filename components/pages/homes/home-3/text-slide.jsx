@@ -10,32 +10,31 @@ const TextSlide = () => {
                             <div className="text-slide">
                                 <div className="sliders scroll">
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>Digital Twin
-                                        </h3>
+                                        <h3>IT Training</h3>
                                         <div className="horizontal-scroll-icon">
                                             <i className="flaticon-satellite-signal"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>XR Solutions</h3>
+                                        <h3>Data Science</h3>
                                         <div className="horizontal-scroll-icon">
                                             <i className="flaticon-satellite-signal"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>3D Walkthru</h3>
+                                        <h3>IT Training</h3>
                                         <div className="horizontal-scroll-icon">
                                             <i className="flaticon-radio-tower"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>Virtual Tour</h3>
+                                        <h3>Digital Marketing</h3>
                                         <div className="horizontal-scroll-icon">
                                             <i className="flaticon-satellite-signal"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>Aerial 360°</h3>
+                                        <h3>IT Strategy</h3>
                                         <div className="horizontal-scroll-icon">
                                             <i className="flaticon-radio-tower"></i>
                                         </div>

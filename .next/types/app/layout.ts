@@ -1,4 +1,4 @@
-// File: D:\raj node\landingpage\nextjs\app\layout.jsx
+// File: D:\raj node\projectjs\landingpage\app\layout.jsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

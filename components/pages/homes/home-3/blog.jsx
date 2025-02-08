@@ -15,7 +15,7 @@ const BlogThree = () => {
                         </div>
                         <div className="col-xl-3 col-lg-3 text-lg-end mt-lg-0 mt-40">
                             <div className="blog__three-title-btn">
-                                <Link href="/blog" className="btn-one">View All<i className="fas fa-chevron-right"></i></Link>
+                                <Link href="/" className="btn-one">View All<i className="fas fa-chevron-right"></i></Link>
                             </div>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ const BlogThree = () => {
                         {blogData.slice(0, 2)?.map((data, id) => (
                             <div className="col-lg-6" key={id}>
                                 <div className="blog__three-single-blog">
-                                    <Link href={`/blog/${data.id}`} className="blog__three-single-blog-img">
+                                    <Link href="" className="blog__three-single-blog-img">
                                         <img src={data.image.src} alt="blog" />
                                         <div className="blog__three-single-blog-img-date">
                                             <h5>{data.date}</h5>
@@ -35,8 +35,8 @@ const BlogThree = () => {
                                             <span><i className="far fa-user"></i>by Admin</span>
                                             <span><i className="far fa-comment-dots"></i>Comments ({data.comment})</span>
                                         </div>
-                                        <Link className="blog__three-single-blog-content-title" href={`/blog/${data.id}`}>{data.title}</Link>
-                                        <Link className="btn-three" href={`/blog/${data.id}`}>Read More<i className="fas fa-angle-right"></i></Link>
+                                        <Link className="blog__three-single-blog-content-title" href="">{data.title}</Link>
+                                        <Link className="btn-three" href="">Read More<i className="fas fa-angle-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

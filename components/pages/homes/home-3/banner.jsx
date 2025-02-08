@@ -48,7 +48,7 @@ const BannerThree = () => {
                                         <h2>Redefining Reality Through Immersive Experiences</h2>
                                         <p>Our work transforms environments into interactive journeys—whether it’s 
                                         showcasing architectural marvels, enhancing educational spaces, or revolutionizing corporate presentations.</p>
-                                        <Link href="/about" className="btn-two">Read More<i className="fas fa-arrow-right"></i></Link>
+                                        <Link href="/" className="btn-two">Read More<i className="fas fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

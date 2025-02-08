@@ -14,7 +14,7 @@ const Work = () => {
                                 <h2>Behind the Screens of Our Workflow</h2>
                                 <p>Delve into the core of our operations and discover the meticulous processes that power our successful</p>
                             </div>
-                            <Link href="/contact" className="btn-one">get started
+                            <Link href="" className="btn-one">get started
                                 <i className="fas fa-arrow-right"></i>
                             </Link>
                             <div className="call-us-box">

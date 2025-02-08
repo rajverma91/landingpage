@@ -3,10 +3,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 
 const ResponsiveMenu = () => {
-    const [activeMenu, setActiveMenu] = useState(null);
 
-
-    const [activeMenus, setActiveMenus] = useState(null);
   
   return (
         <>
@@ -28,7 +25,7 @@ const ResponsiveMenu = () => {
                 <li className='menu-item-has-children'><Link href='#'>Blog</Link>
                  
                 </li>
-                <li><Link href="/contact">Contact</Link></li>   
+                <li><Link href="">Contact</Link></li>   
             </ul>  
         </>
     );

@@ -6,7 +6,7 @@ import AboutTwo from "./about";
 import ServicesTwo from "./services";
 import SkillArea from "./skill";
 import Team from "./team";
-import TextSlide from "../home-3/text-slide";
+import TextSlide from "../home/text-slide";
 import ContactForm from "./contact-form";
 import WorkProcess from "./work";
 import TestimonialTwo from "./testimonial";

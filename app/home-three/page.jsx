@@ -1,4 +1,4 @@
-import HomeThree from "@/components/pages/homes/home-3";
+import HomeThree from "@/components/pages/homes/home";
 
 const HomeThr = () => {
     return (

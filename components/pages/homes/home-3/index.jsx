@@ -1,38 +1,36 @@
-"use client"
+"use client";
 import SEO from "@/components/data/seo";
-import FooterThree from "@/components/layout/footers/footer-three";
-import HeaderThree from "@/components/layout/headers/header/header-three";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
-import BannerThree from "./banner";
-import ServicesThree from "./services";
-import TextSlide from "./text-slide";
-import AboutThree from "./about";
-import PortfolioThree from "./portfolio";
-import Faq from "./faq";
-import ChooseUsThree from "./choose-us";
-import TestimonialThree from "./testimonial";
-import Work from "./work";
-import BlogThree from "./blog";
+import HeaderOne from "@/components/layout/headers/header/header-one";
+import BannerOne from "./banner";
+import About from "./about";
+import ChooseUs from "./choose-us";
+import Features from "./features";
+import Portfolio from "./portfolio";
+import Pricing from "./pricing";
+import WorkArea from "./work";
+import FooterOne from "@/components/layout/footers/footer-one";
+import Blog from "./blog";
+import Testimonial from "./testimonial";
 
-const HomeThree = () => {
+const HomeOne = () => {
     return (
-        <>
-            <SEO pageTitle="Cloud Computing" />
-            <HeaderThree  />
-            <BannerThree />
-            <ServicesThree />
-            <TextSlide />
-            <AboutThree />
-            <PortfolioThree />
-            <Faq />
-            <ChooseUsThree />
-            <TestimonialThree />
-            <Work />
-            <BlogThree />
-            <FooterThree />
+        <div>
+            <SEO pageTitle='Technology' />
+            <HeaderOne />
+            <BannerOne />
+            <About />
+            <ChooseUs />
+            <Features />
+            <Portfolio />
+            <Pricing />
+            <WorkArea />
+            <Testimonial />
+            <Blog />
+            <FooterOne />
             <ScrollToTop />
-        </>
+        </div>
     );
 };
 
-export default HomeThree;
+export default HomeOne;

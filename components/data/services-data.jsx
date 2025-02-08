@@ -1,40 +1,21 @@
 
 const servicesData = [
     {
-        id: 'data-analytics',
+        id: 'Virtual Tours',
         icon: <i className="flaticon-data-scientist"></i>,
-        title: 'Data Analytics : Your Business in Every Hand',
-        des: 'Leverage critical insights & trends from your data',
+        title: 'Virtual Tours',
+        des: 'Explore Spaces Like Never Before Step into a new realm of real estate, education, or business with lifelike virtual tours. Engage audiences with interactive, high-definition walkthroughs that bring your spaces to life.',
     },
     {
-        id: 'cloud-computing',
+        id: '3D Rendering',
         icon: <i className="flaticon-satellite-signal"></i>,
-        title: 'Cloud Computing : Elevating Your Business Operations',
-        des: 'Optimize scalability and flexibility with cloud solutions',
-    },
+        title: '3D Rendering',
+        des: 'From Vision to Reality Transform your architectural designs into stunning 3D renderings. Whether its for luxury real estate or corporate spaces, let clients visualize the final product in exquisite detail.',},
     {
-        id: 'network-analysis',
+        id: 'Aerial 360° Videos',
         icon: <i className="flaticon-global-network"></i>,
-        title: 'Network Analysis : Insights Informed Decisions',
-        des: 'Ensure network efficiency and security with comprehensive analysis',
-    },
-    {
-        id: 'app-development',
-        icon: <i className="flaticon-mobile-app"></i>,
-        title: 'App Development : Guiding Digital Transformation',
-        des: 'Build innovative and user-friendly applications',
-    },
-    {
-        id: 'software-planning',
-        icon: <i className="flaticon-software-development"></i>,
-        title: 'Software Planning : Protecting Your Digital Assets',
-        des: 'Strategize and design robust software solutions',
-    },
-    {
-        id: 'cyber-security',
-        icon: <i className="flaticon-cyber-security"></i>,
-        title: 'Cyber Security : Your Reliable Technical Backbone',
-        des: 'Protect your digital assets with advanced security measures',
+        title: 'Aerial 360° Videos',
+        des: 'See the Bigger Picture Showcase your properties or projects from breathtaking angles with aerial 360° videos. Perfect for luxury real estate, resorts, and large-scale developments.',
     },
 ];
 

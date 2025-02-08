@@ -1,4 +1,4 @@
-// File: D:\raj node\projectjs\landingpage\app\page.jsx
+// File: /workspaces/landingpage/app/page.jsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -40,11 +40,11 @@ const Faq = () => {
                                 <div className="award-icon">
                                     <i className="fas fa-award"></i>
                                 </div>
-                                <div className="award-count">
+                                {/* <div className="award-count">
                                     <h3 className="counter"><Count number={20}/></h3>
                                     <h3>+</h3>
-                                </div>
-                                <span>Winning Awards</span>
+                                </div> */}
+                                <span>Trusted by Industry Leaders</span>
                             </div>
                         </div>
                     </div>

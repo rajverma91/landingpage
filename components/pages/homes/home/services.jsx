@@ -7,9 +7,9 @@ const ServicesThree = () => {
             <div className="services__three section-padding">
                 <div className="container">
                     <div className="row justify-content-center">
-                        <div className="col-xl-6">
+                        <div className="col-xl-8">
                             <div className="services__three-title text-center">
-                            <span className="subtitle-one">Latest service</span>
+                            {/* <span className="subtitle-one">Latest service</span> */}
                             <h2>Transforming Spaces into Virtual <span className="highlighted-two">Experiences </span></h2>
                             </div>
                         </div>

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import logo2 from "../../../public/assets/img/borning-png.png";
+import logo2 from "../../../public/assets/img/footer-logo.png";
 import Social from '@/components/data/social';
 
 const SideBar = ({ isOpen, setIsOpen }) => {
@@ -21,7 +21,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
 						</div>
 						<div className="header__area-menubar-right-sidebar-popup-contact-item-content">
 							<span>Call Now</span>
-							<h6><Link href="tel:+125(895)658568">+125 (895) 658 568</Link></h6>
+							<h6><Link href="tel:+91 99885 32819">+91 99885 32819</Link></h6>
 						</div>
 					</div>
 					<div className="header__area-menubar-right-sidebar-popup-contact-item">
@@ -30,7 +30,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
 						</div>
 						<div className="header__area-menubar-right-sidebar-popup-contact-item-content">
 							<span>Quick Email</span>
-							<h6><Link href="mailto:info.help@gmail.com">info.help@gmail.com</Link></h6>
+							<h6><Link href="mailto:info@borning.com">info@borning.com</Link></h6>
 						</div>
 					</div>
 					<div className="header__area-menubar-right-sidebar-popup-contact-item">
@@ -39,7 +39,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
 						</div>
 						<div className="header__area-menubar-right-sidebar-popup-contact-item-content">
 							<span>Office Address</span>
-							<h6><Link href="https://google.com/maps" target="_blank">PV3M+X68 Welshpool United Kingdom</Link></h6>
+							<h6><Link href="/" target="_blank">PV3M+X68 Welshpool United Kingdom</Link></h6>
 						</div>
 					</div>
 				</div>

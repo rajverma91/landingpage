@@ -3,8 +3,8 @@ import MainMenu from '../header-menu';
 import Search from '../search';
 import { useEffect, useState } from 'react';
 import SideBar from '../offcanvas';
-import logo1 from "../../../../public/assets/img/logo-1.png";
-import logo2 from "../../../../public/assets/img/logo-2.png";
+import logo1 from "../../../../public/assets/img/borning-png.png";
+import logo2 from "../../../../public/assets/img/footer-logo.png";
 import MobileMenuPopup from '../mobile-menu/menu-area';
 import Link from 'next/link';
 
@@ -29,13 +29,13 @@ const HeaderTwo = ({variant}) => {
                 <div className="row">
                     <div className="col-xl-5 col-md-5">
                         <div className="top__bar-right">
-                        <Link href="https://www.google.com/maps"><i className="fas fa-map-marker-alt"></i>6391 Elgin St. Celina, 10299</Link>
+                        <Link href="/"><i className="fas fa-map-marker-alt"></i>6391 Elgin St. Celina, 10299</Link>
                         </div>
                     </div>
                     <div className="col-xl-7 col-md-7">
                         <div className="top__bar-left">
                             <span><i className="fas fa-clock"></i>Working Hours : 10AM - 08PM</span>
-                            <Link href="mailto:info@example.com"><i className="fas fa-envelope"></i>info@example.com</Link>
+                            <Link href="mailto:info@borning.com"><i className="fas fa-envelope"></i>info@borning.com</Link>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ const HeaderTwo = ({variant}) => {
                                 <i className="flaticon-phone-call"></i>
                                 <div className="header__area-menubar-right-box-help-info">
                                     <span>Make a call</span>
-                                    <Link href="tel:(307)555-0133">(307) 555-0133</Link>
+                                    <Link href="tel:+91 99885 32819">+91 99885 32819</Link>
                                 </div>
                             </div>
                         <div className="header__area-menubar-right-responsive-menu menu__bar">

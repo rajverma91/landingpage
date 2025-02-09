@@ -1,6 +1,6 @@
 import Social from "@/components/data/social";
 import Link from "next/link";
-import logo from "../../../public/assets/img/logo-2.png";
+import logo from "../../../public/assets/img/footer-logo.png";
 import ctaBg from "../../../public/assets/img/subscribe/subscribe-two-shape-2.png";
 import footerBg from "../../../public/assets/img/shape/footer-bg.png";
 import servicesData from "@/components/data/services-data";
@@ -13,7 +13,7 @@ const FooterTwo = () => {
                 <div className="row justify-content-center text-center subscribe__one-content" style={{backgroundImage: `url(${ctaBg.src})`}}>
                     <div className="col-xl-7 col-lg-8">
                         <div className="subscribe__one-title">
-                            <h3>Unlock Your Potential Today</h3>
+                            <h3>Revolutionize Your World with Our Expertise</h3>
                         </div>
                         <div className="subscribe-bottom">
                             <Link href="/request-quote" className="btn-two">request quote<i className="fas fa-arrow-right"></i></Link>
@@ -24,7 +24,7 @@ const FooterTwo = () => {
                                     </div>
                                     <div className="call-box-item-info">
                                         <span>Make a call</span>
-                                        <Link href="tel:(307)555-0133">(307) 555-0133</Link>
+                                        <Link href="tel:+91 99885 32819">+91 99885 32819</Link>
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const FooterTwo = () => {
                         <div className="footer__one-widget">
                             <div className="footer__one-widget-about">
                                 <Link href="/"><img src={logo.src} alt="Logo-image" /></Link>
-                                <p>Financial planners help people to gain knowledge about</p>
+                                <p>Innovating the Future of AR/VR</p>
                                 <div className="footer__one-widget-about-social">
                                     <h4>Follow us</h4>	
                                     <Social />
@@ -75,7 +75,7 @@ const FooterTwo = () => {
                                     </div>
                                     <div className="footer__one-widget-location-item-info email">
                                         <span>Email</span>
-                                        <Link href="mailto:helpinfo@gmail.com">helpinfo@gmail.com</Link>
+                                        <Link href="mailto:info@borning.com">info@borning.com</Link>
                                     </div>
                                 </div>
                                 <div className="footer__one-widget-location-item">
@@ -94,7 +94,7 @@ const FooterTwo = () => {
                         <div className="footer__one-widget border-one tow">
                             <h4>Newsletter</h4>
                             <div className="footer__one-widget-subscribe">
-                                <p>Financial planners help people to gain knowledge aboutw</p>
+                                <p>Stay Ahead in Innovation – Sign up to receive the latest updates and insights on AR/VR technologies, industry trends, and exclusive offers from Borning Studios.</p>
                                 <form action="#">
                                     <input type="text" name="email" placeholder="Your e-mail" required="" />
                                     <button type="submit"><i className="fas fa-paper-plane"></i></button>
@@ -109,7 +109,7 @@ const FooterTwo = () => {
                     <div className="row justify-content-between copyright__one-container-area">
                         <div className="col-xl-5 col-lg-6"> 
                             <div className="copyright__one-left">
-                                <p>© ThemeOri  2024 | All Rights Reserved</p>
+                            <p>© BORNING  2024 | All Rights Reserved</p>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-6">

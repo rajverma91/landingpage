@@ -10890,3 +10890,10 @@ Responsive Menu Css
   background-color: var(--color-1);
   height: 100vh;
 }/*# sourceMappingURL=style.css.map */
+
+
+.services__three_bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}

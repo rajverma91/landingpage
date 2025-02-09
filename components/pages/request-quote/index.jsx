@@ -5,15 +5,17 @@ import BreadCrumb from '../common/breadcrumb';
 import RequestQuoteMain from './request-quote';
 import FooterOne from '@/components/layout/footers/footer-one';
 import ScrollToTop from '../common/scroll/scroll-to-top';
+import HeaderTwo from '@/components/layout/headers/header/header-two';
+import FooterTwo from '@/components/layout/footers/footer-two';
 
 const RequestQuotePage = () => {
     return (
         <>
             <SEO pageTitle="Request Quote" />
-            <HeaderOne />
+            <HeaderTwo />
             <BreadCrumb title="Request Quote" innerTitle="Request Quote" />
             <RequestQuoteMain />
-            <FooterOne />
+            <FooterTwo />
             <ScrollToTop />
         </>
     );

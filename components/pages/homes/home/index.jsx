@@ -13,14 +13,18 @@ import ChooseUsThree from "./choose-us";
 import TestimonialThree from "./testimonial";
 import Work from "./work";
 import BlogThree from "./blog";
+import BackgroundThree from "./backgrounddata";
+import FooterTwo from "@/components/layout/footers/footer-two";
+import HeaderTwo from "@/components/layout/headers/header/header-two";
 
 const HomeThree = () => {
     return (
         <>
             <SEO pageTitle="Cloud Computing" />
-            <HeaderThree  />
+            <HeaderTwo  />
             <BannerThree />
             <ServicesThree />
+            <BackgroundThree />
             <TextSlide />
             <AboutThree />
             <PortfolioThree />
@@ -29,7 +33,7 @@ const HomeThree = () => {
             <TestimonialThree />
             <Work />
             <BlogThree />
-            <FooterThree />
+            <FooterTwo />
             <ScrollToTop />
         </>
     );

@@ -40,7 +40,7 @@ const PortfolioDetailsMain = ({singleData}) => {
                       
                     </div>
                 </div>
-                <div className="col-xl-8">
+                <div className="col-xl-12">
                     <div className="project__details-content">
                         <div className="project__details-content-mid">
                             {/* <p>{singleData.details.description}</p> */}

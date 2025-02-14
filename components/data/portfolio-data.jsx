@@ -21,6 +21,7 @@ const portfolioData = [
 <li><strong>Interactive Walkthroughs:</strong> Users can navigate through spaces, view different units, and get a feel for the property before visiting.</li>
 <li><strong>Data-Driven Insights:</strong> Integrates with property databases to provide real-time availability, pricing, and specifications.</li>
 <li><strong>VR & AR Compatibility:</strong> Enhances the experience with Virtual and Augmented Reality support.</li></ul>
+<iframe src="https://standard-en.3destate.app/" height="600px" width="1200" title="Iframe Example"></iframe>
 
 <h3>Why Your Business Needs 3D Twin Lite</h3>
 <ul><li><strong>Enhanced Property Showcase:</strong> Give clients an engaging, high-quality view of your properties.</li>

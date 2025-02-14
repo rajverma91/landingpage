@@ -12022,3 +12022,23 @@ Responsive Menu Css
   background-position: center;
   background-attachment: fixed;
 }
+
+.project__details-thumb img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.project__details .project__details-content-mid h3.main {
+  font-size: 26px !important;
+  color: #0e59f2;
+}
+
+.project__details .project__details-content-mid h3 {
+  font-size: 20px;
+  margin: 12px 0 6px;
+  
+}
+.project__details .project__details-content-mid ul {
+  padding: 0 17px;
+}
+

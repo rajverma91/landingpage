@@ -13,7 +13,7 @@ const portfolioData = [
         image: image1,    
         details: {
             listdata1: `
-           <h3> What is 3D Twin Lite?</h3>
+           <h3 class="main"> What is 3D Twin Lite?</h3>
 3D Twin Lite is an advanced digital twin technology that creates an interactive, 3D representation of properties and developments. It allows potential buyers, investors, and stakeholders to explore properties in a highly immersive environment, enhancing engagement and decision-making.
 
 <h3>How It Works</h3>
@@ -51,7 +51,7 @@ const portfolioData = [
         image: image2,
         details: {
             listdata1: `
-           <h3>  Step Inside, Anytime, Anywhere </h3> 
+          <h3 class="main">   Step Inside, Anytime, Anywhere </h3> 
 Imagine walking through your dream home before even setting foot inside. With Virtual Tours, your clients get a real feel of the property, exploring every corner as if they were actually there. No guesswork, no surprises—just an immersive, interactive experience that makes decision-making easier and more exciting.
  <h3> Why This Changes the Game for Real Estate </h3> 
    Buying or renting a property isn’t just about numbers—it’s about feeling at home. A 360° Virtual Tour does more than showcase a space; it lets buyers experience it. Whether they’re in another city or just short on time, they can tour the property whenever and wherever they want.
@@ -80,7 +80,7 @@ A picture is worth a thousand words, but a virtual tour can close a deal. Whethe
         image: image3,
         details: {
             listdata1: `
-            <h3>Portfolio Page Content - 3D 360° Outer & Inner Elevation View of Villa</h3>
+           <h3 class="main"> Portfolio Page Content - 3D 360° Outer & Inner Elevation View of Villa</h3>
 <h3>Experience Luxury Like Never Before</h3>
 Your dream villa deserves more than static images—it deserves to be felt. With our 3D 360° elevation views, we bring your property to life, allowing clients to walk through, explore, and experience every architectural detail inside and out.
 <h3>What Makes This So Powerful?</h3>
@@ -110,7 +110,7 @@ Turn interest into investment by giving buyers and investors a real feel of your
         image: image4,  
         details: {
             listdata1: `
-        <h3>   Portfolio Page Content - Virtual Reality Tour of Flat</h3>
+        <h3 class="main">   Portfolio Page Content - Virtual Reality Tour of Flat</h3>
 <h3>Experience Your Home Before It’s Built</h3>
 Why wait for site visits when you can explore your future home from anywhere? With our VR Flat Tours, step inside, walk around, and feel the space—just like a real visit.
 <h3>Why Virtual Reality Tours?</h3>

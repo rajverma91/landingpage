@@ -62,6 +62,8 @@ Imagine walking through your dream home before even setting foot inside. With Vi
 <li> Better Engagement, Faster Sales – A virtual experience builds excitement, helping buyers take action sooner.</li>
 <li>Reach More Buyers – International and remote clients can tour the property without the travel hassle.</li></ul>
 <h3>What Borning Studios Brings to the Table</h3>
+<iframe src="https://www.3dvista.com/samples/real_estate_virtual_tour.html" height="600px" width="1200" title="Iframe Example"></iframe>
+
 We don’t just create tours; we craft experiences. With high-resolution 360° imagery, smooth navigation, and interactive elements, we make sure your properties don’t just get seen—they get remembered.
  <ul><li>Full 360° Virtual Walkthroughs – Let clients navigate freely, just like they would in person.</li>
 <li> Stunning HD Panoramas – Every detail matters, and we make sure it’s crystal clear.</li>
@@ -92,6 +94,8 @@ Most buyers struggle to visualize a home from traditional floor plans and photos
 <li> Boost Buyer Confidence – With a full 3D visualization, clients feel assured about their choice.</li>
 <li> Perfect for Architects & Developers – Present your project in an immersive, high-quality format.</li></ul>
 <h3>What Borning Studios Offers</h3>
+<iframe src="https://3dranderwalkthru.s3.ap-south-1.amazonaws.com/3dvilla/tour.html" height="600px" width="1200" title="Iframe Example"></iframe>
+
 At Borning Studios, we don’t just render villas—we create immersive experiences. Our 3D 360° solutions ensure that your property isn’t just seen but felt.
 <ul><li> <strong>Crystal-Clear 3D Renders –</strong> High-resolution, lifelike detailing.</li>
 <li><strong> Interactive Walkthroughs – </strong>Clients can explore with full control.</li>
@@ -120,6 +124,7 @@ Why wait for site visits when you can explore your future home from anywhere? Wi
 <li> Time-Saving & Efficient – No need for multiple site visits; make confident decisions remotely.</li>
 <li> Perfect for Homebuyers & Investors – Compare multiple properties effortlessly.</li></ul>
 <h3>How It Works</h3>
+<iframe src="https://walkinside.s3.ap-south-1.amazonaws.com/motion/tour.html" height="600px" width="1200" title="Iframe Example"></iframe>
 <ul><li> 360° Walkthroughs – Navigate through the entire flat in an immersive experience.</li>
 <li> Detailed Room Overviews – See dimensions, layouts, and decor in real-time.</li>
 <li> Custom Branding – Developers & realtors can personalize tours with logos and information.</li>

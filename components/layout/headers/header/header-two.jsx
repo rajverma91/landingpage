@@ -3,8 +3,8 @@ import MainMenu from '../header-menu';
 import Search from '../search';
 import { useEffect, useState } from 'react';
 import SideBar from '../offcanvas';
-import logo1 from "../../../../public/assets/img/borning-png.png";
-import logo2 from "../../../../public/assets/img/footer-logo.png";
+import logo1 from "../../../../public/assets/img/LOGO-dark-png.png";
+import logo2 from "../../../../public/assets/img/LOGO-dark.png";
 import MobileMenuPopup from '../mobile-menu/menu-area';
 import Link from 'next/link';
 

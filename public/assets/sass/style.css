@@ -1060,7 +1060,7 @@ p {
   --btn-white: #FFFFFF;
   --border-white: #FFFFFF;
   --black: #000000;
-  --primary-color-1: #0E59F2;
+  --primary-color-1: #00cc65;
   --primary-color-2: #F8E559;
   --primary-color-3: #406AFF;
   --bg-heading-color: #051634;
@@ -10897,7 +10897,18 @@ Responsive Menu Css
   background-position: center;
   background-attachment: fixed;
 }
-
+.blog__three.section-padding {
+  padding-top: 0;
+}
+.testimonial__two {
+  overflow: hidden;
+  background: var(--color-1);
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.subscribe__one {
+  background: #f4f7fb;
+}
 .project__details-thumb img {
     width: 100%;
     height: 500px;
@@ -10905,7 +10916,7 @@ Responsive Menu Css
 }
 .project__details .project__details-content-mid h3.main {
   font-size: 26px !important;
-  color: #0e59f2;
+  color: #00cc65;
 }
 
 .project__details .project__details-content-mid h3 {

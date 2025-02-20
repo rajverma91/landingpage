@@ -29,9 +29,9 @@ const HomeThree = () => {
             <AboutThree />
             <PortfolioThree />
             <Faq />
-            <ChooseUsThree />
+            {/* <ChooseUsThree /> */}
             <TestimonialThree />
-            <Work />
+            {/* <Work /> */}
             <BlogThree />
             <FooterTwo />
             <ScrollToTop />

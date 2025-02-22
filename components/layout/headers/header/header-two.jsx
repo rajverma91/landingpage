@@ -34,7 +34,7 @@ const HeaderTwo = ({variant}) => {
                     </div>
                     <div className="col-xl-7 col-md-7">
                         <div className="top__bar-left">
-                            <span><i className="fas fa-clock"></i>Working Hours : 10AM - 08PM</span>
+                            {/* <span><i className="fas fa-clock"></i>Working Hours : 10AM - 08PM</span> */}
                             <Link href="mailto:info@borning.com"><i className="fas fa-envelope"></i>info@borning.com</Link>
                         </div>
                     </div>

@@ -21,8 +21,10 @@ const BannerThree = () => {
             >
 
                 <SwiperSlide>
-                    <div className="banner__three-single-slide" style={{backgroundImage: `url(${banner2.src})`}}>
-                        <div className="banner__three-bg-shape-overlay" style={{backgroundImage: `url(${shape.src})`}}></div>
+                    <div className="banner__three-single-slide banner__three-iframe" style={{backgroundImage: `url(${banner2.src})`}}>
+                        <div className="banner__three-bg-shape-overlay" >
+                        <iframe src="https://biganto.com/tour/39278/" height="100%" width="100%" title="Iframe Example"></iframe>
+                        </div>
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-xl-10">

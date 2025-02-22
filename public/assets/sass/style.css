@@ -703,7 +703,9 @@ p {
   color: #00cc65;
  
 }
-
+.banner__three-iframe .banner__three-content {
+  visibility:hidden !important;
+}
 .highlighted-two::before {
   content: "";
   width: 108%;

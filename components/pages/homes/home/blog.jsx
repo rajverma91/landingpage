@@ -20,7 +20,7 @@ const BlogThree = () => {
                         </div>
                     </div>
                     <div className="row gy-4">
-                        {blogData.slice(0, 2)?.map((data, id) => (
+                    {blogData.slice(0, 2)?.map((data, id) => (
                             <div className="col-lg-6" key={id}>
                                 <div className="blog__three-single-blog">
                                     <Link href={`/blog/${data.id}`} className="blog__three-single-blog-img">

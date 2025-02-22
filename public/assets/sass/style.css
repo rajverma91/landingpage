@@ -691,10 +691,16 @@ p {
     opacity: 0;
   }
 }
+.background__three-title.text-center {
+  padding: 101px 13px;
+}
+.background__three-title h2{
+  color: #fff;
+}
 .highlighted-two {
   position: relative;
   display: inline-block;
-  color: var(--primary-color-1);
+  color: #fff;
 }
 .highlighted-two::before {
   content: "";
@@ -702,7 +708,7 @@ p {
   height: 60px;
   position: absolute;
   border: 2px solid transparent;
-  border-top: 2px solid var(--primary-color-1);
+  border-top: 2px solid #fff;
   border-radius: 50%;
   top: 58px;
   left: -10px;
@@ -10891,11 +10897,20 @@ Responsive Menu Css
   height: 100vh;
 }/*# sourceMappingURL=style.css.map */
 
-
+/* .blogDiscription {
+    padding: 36px 0;
+} */
+.blogDiscription ul {
+  padding: 0 18px;
+}
+.blogDiscription ul.iconlist li, .blogDiscription ul.iconlist {
+  list-style: none;
+  padding: 0 !important;
+}
 .services__three_bg {
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: initial;
 }
 .blog__three.section-padding {
   padding-top: 0;

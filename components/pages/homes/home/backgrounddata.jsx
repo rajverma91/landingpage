@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import banner2 from "../../../../public/assets/img/banner/citybg-removebg-preview.png";
+import banner2 from "../../../../public/assets/img/banner/city.webp";
 const BackgroundThree = () => {
     return (
         <>

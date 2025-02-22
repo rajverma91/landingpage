@@ -73,12 +73,12 @@ const slideControl = {
                                 <div className="single-slider">
                                     <div className="single-slider-user">
                                         <div className="single-slider-user-name">
-                                        <h4>Rohit Malhotra</h4>
-                                            <span>CEO, Skyline Properties Pvt. Ltd.</span>
+                                        <h4>Vikram Mehta</h4>
+                                            <span>Director, Urban Spaces
+                                            </span>
                                         </div>
                                     </div>
-									<p>Borning Studios revolutionized how we showcase properties with immersive VR experiences and 360° views. Their innovative approach captivated our clients and elevated engagement. A game-changer for real estate!
-                                    </p>
+									<p>Thanks to Borning Studios, our commercial properties now have a cutting-edge virtual presence. The interactive 3D models and VR solutions have made it easier for investors and clients to explore our spaces remotely, leading to faster deal closures.</p>
                                     <div className="single-slider-user-rating mt-30">
                                         <i className="fas fa-star"></i>
                                         <i className="fas fa-star"></i>

@@ -42,19 +42,20 @@ const AboutThree = () => {
                                     <h4 className="counter"><Count number={25}/></h4>
                                     <span>Years Of experience</span>								
                                 </div> */}
-                                <div className="col-xl-6 col-lg-7 col-md-6 col-sm-6">
+                                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                     <div className="about__three-right-image-left-side">
-                                        <img src={image1.src} alt="image" />
+                                        {/* <img src={image1.src} alt="image" /> */}
+                                        <iframe src="https://biganto.com/tour/39278/" height="600px" width="1200" title="Iframe Example"></iframe>
                                     </div>
                                 </div>
-                                <div className="col-xl-6 col-lg-5 col-md-5 col-sm-6">
+                                {/* <div className="col-xl-6 col-lg-5 col-md-5 col-sm-6">
                                     <div className="about__three-right-image">
                                         <img src={image2.src} alt="image" />
                                     </div>
                                     <div className="about__three-right-image">
                                         <img src={image3.src} alt="image" />
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

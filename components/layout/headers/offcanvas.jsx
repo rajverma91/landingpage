@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import logo2 from "../../../public/assets/img/footer-logo.png";
+
 import Social from '@/components/data/social';
 
 const SideBar = ({ isOpen, setIsOpen }) => {

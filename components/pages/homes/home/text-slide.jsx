@@ -11,6 +11,7 @@ const TextSlide = () => {
                                 <div className="sliders scroll">
                                     <div className="horizontal-scroll-single-item">
                                         <h3>Digital Twin
+
                                         </h3>
                                         <div className="horizontal-scroll-icon">
                                             <i className="flaticon-satellite-signal"></i>
@@ -47,13 +48,13 @@ const TextSlide = () => {
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>Digital Marketing</h3>
+                                        <h3>Virtual Tour</h3>
                                         <div className="horizontal-scroll-icon">
                                             <i className="flaticon-satellite-signal"></i>
                                         </div>
                                     </div>
                                     <div className="horizontal-scroll-single-item">
-                                        <h3>Software Testing</h3>
+                                        <h3>3D Walkthru</h3>
                                         <div className="horizontal-scroll-icon">
                                             <i className="flaticon-cloud-storage"></i>
                                         </div>

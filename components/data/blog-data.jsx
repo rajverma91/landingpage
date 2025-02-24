@@ -1,5 +1,5 @@
 import image1 from "../../public/assets/img/blog/blog1.jpg";
-import image2 from "../../public/assets/img/blog/blog-2.jpg";
+import image2 from "../../public/assets/img/blog/blog-2.png";
 import avatar1 from "../../public/assets/img/avatar/avatar-1.jpg";
 
 
@@ -128,9 +128,7 @@ const blogData = [
                         <div class="blog__details-comments">
                             <h3>3 Comment</h3>
                             <div class="blog__details-single-comment">
-                                <div class="blog__details-single-comment-user-pic">
-                                     <img src={avatar2.src} alt="image" />
-                                </div>
+                               
                                 <div class="blog__details-single-comment-body">
                                     <div class="blog__details-single-comment-body-top">
                                         <h5>Stanio lainto</h5>
@@ -142,9 +140,7 @@ const blogData = [
                                 </div>
                             </div>
                             <div class="blog__details-single-comment">
-                                <div class="blog__details-single-comment-user-pic">
-                                    <img src={avatar3.src} alt="image" />
-                                </div>
+                              
                                 <div class="blog__details-single-comment-body">
                                     <div class="blog__details-single-comment-body-top">
                                         <h5>Court Henry</h5>
@@ -290,9 +286,7 @@ const blogData = [
                      <div class="blog__details-comments">
                          <h3>3 Comment</h3>
                          <div class="blog__details-single-comment">
-                             <div class="blog__details-single-comment-user-pic">
-                                  <img src={avatar2.src} alt="image" />
-                             </div>
+                         
                              <div class="blog__details-single-comment-body">
                                  <div class="blog__details-single-comment-body-top">
                                      <h5>Stanio lainto</h5>
@@ -304,9 +298,7 @@ const blogData = [
                              </div>
                          </div>
                          <div class="blog__details-single-comment">
-                             <div class="blog__details-single-comment-user-pic">
-                                 <img src={avatar3.src} alt="image" />
-                             </div>
+                         
                              <div class="blog__details-single-comment-body">
                                  <div class="blog__details-single-comment-body-top">
                                      <h5>Court Henry</h5>

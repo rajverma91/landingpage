@@ -7,7 +7,7 @@ const AboutThree = () => {
     return (
         <div className="about__three section-padding">
             <div className="container">
-                <div className="row align-items-center gy-4">
+                <div className="row align-items-center gy-0">
                     <div className="col-xl-6 col-lg-6 col-md-10 col-sm-12">
                         <div className="about__three-content">
                             <span className="subtitle-one">About us</span>
@@ -38,22 +38,11 @@ const AboutThree = () => {
                     <div className="col-xl-6 col-lg-6 col-md-9">
                         <div className="about__three-right">
                             <div className="row align-items-center">
-                                {/* <div className="about__three-right-counter">
-                                    <h4 className="counter"><Count number={25}/></h4>
-                                    <span>Years Of experience</span>								
-                                </div> */}
-                                <div className="col-xl-6 col-lg-7 col-md-6 col-sm-6">
-                                    <div className="about__three-right-image-left-side">
-                                        <img src={image1.src} alt="image" />
-                                    </div>
-                                </div>
-                                <div className="col-xl-6 col-lg-5 col-md-5 col-sm-6">
-                                    <div className="about__three-right-image">
+                                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                    <div className="about__three-right-image1">
                                         <img src={image2.src} alt="image" />
                                     </div>
-                                    <div className="about__three-right-image">
-                                        <img src={image3.src} alt="image" />
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>

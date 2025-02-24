@@ -109,28 +109,31 @@ Turn interest into investment by giving buyers and investors a real feel of your
          }  
     },
     {        
-        id: 'step-inside-virtually',
-        title: 'Step Inside, Virtually',
+        id: 'step-into-the-future',
+        title: 'Step Into the Future',
         subtitle: 'Explore Every Corner of Your Future Home',
         image: image4,  
         details: {
             listdata1: `
-        <h3 class="main">   Portfolio Page Content - Virtual Reality Tour of Flat</h3>
+        <h3 class="main">Portfolio Page Content - Virtual Reality Tour of Flat</h3>
 <h3>Experience Your Home Before It’s Built</h3>
-Why wait for site visits when you can explore your future home from anywhere? With our VR Flat Tours, step inside, walk around, and feel the space—just like a real visit.
+Why wait for site visits when you can explore your future home from anywhere? With our<strong> VR Flat Tours</strong>, step inside, walk around, and feel the space—just like a real visit.
 <h3>Why Virtual Reality Tours?</h3>
-<ul><li> Seamless, Interactive Experience – Move from room to room with a simple click.</li>
-<li> High-Definition Views – Every texture, finish, and design detail is captured in crisp clarity.</li>
-<li> Time-Saving & Efficient – No need for multiple site visits; make confident decisions remotely.</li>
-<li> Perfect for Homebuyers & Investors – Compare multiple properties effortlessly.</li></ul>
+<ul>
+<li><strong>Seamless, Interactive Experience</strong> Move from room to room with a simple click.</li>
+<li><strong>High-Definition Views</strong> Every texture, finish, and design detail is captured in crisp clarity.</li>
+<li><strong>Time-Saving & Efficient</strong> No need for multiple site visits; make confident decisions remotely.</li>
+<li><strong>Perfect for Homebuyers & Investors</strong> Compare multiple properties effortlessly.</li>
+
+</ul>
 <h3>How It Works</h3>
 <iframe src="https://walkinside.s3.ap-south-1.amazonaws.com/motion/tour.html" height="600px" width="1200" title="Iframe Example"></iframe>
-<ul><li> 360° Walkthroughs – Navigate through the entire flat in an immersive experience.</li>
-<li> Detailed Room Overviews – See dimensions, layouts, and decor in real-time.</li>
-<li> Custom Branding – Developers & realtors can personalize tours with logos and information.</li>
-<li> Mobile & VR Compatible – Access the tour on any device or dive in fully with a VR headset.</li> </ul>
+<ul><li> <strong>360° Walkthroughs</strong> – Navigate through the entire flat in an immersive experience.</li>
+<li> <strong>Detailed Room Overviews </strong>– See dimensions, layouts, and decor in real-time.</li>
+<li> <strong>Custom Branding </strong>– Developers & realtors can personalize tours with logos and information.</li>
+<li> <strong>Mobile & VR Compatible</strong> – Access the tour on any device or dive in fully with a VR headset.</li> </ul>
 <h3>Why Choose Borning Studios?</h3>
-We bring properties to life before they are even built. Whether you're a real estate developer, broker, or homebuyer, our VR property tours provide an unmatched level of engagement and trust.
+We bring properties to life before they are even built. Whether you're a <strong>real estate developer, broker, or homebuyer, </strong>our <strong>VR property tours </strong>provide an unmatched level of engagement and trust.
 <h3>👉 Take a Virtual Tour & Experience the Future of Home Buying!</h3>
 
             `

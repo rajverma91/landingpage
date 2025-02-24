@@ -8,16 +8,18 @@ import FooterOne from "@/components/layout/footers/footer-one";
 import ScrollToTop from "../../common/scroll/scroll-to-top";
 import HeaderThree from "@/components/layout/headers/header/header-three";
 import FooterThree from "@/components/layout/footers/footer-three";
+import HeaderTwo from "@/components/layout/headers/header/header-two";
+import FooterTwo from "@/components/layout/footers/footer-two";
 
 const BlogDetails = ({singleData}) => {
     const firstThreeWords = singleData?.title.split(' ').slice(0, 3).join(' ') + '...';
     return (
         <>
             <SEO pageTitle={singleData?.title} />
-            <HeaderThree />
+            <HeaderTwo />
             <BreadCrumb title={firstThreeWords} innerTitle={singleData?.title} />
             <BlogSingleMain singleData={singleData}/>
-            <FooterThree />
+            <FooterTwo />
             <ScrollToTop />
         </>
     );

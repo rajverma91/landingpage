@@ -62,7 +62,7 @@ const HeaderTwo = ({variant}) => {
                                         <i className="flaticon-loupe"></i>
                                     </span>
                                 </div>
-                            </div>
+                            </div>  
                             <div className="header__area-menubar-right-box-sidebar">
                                 <div className="header__area-menubar-right-box-sidebar-popup-icon" onClick={() => setSidebarOpen(true)}>
                                     <span className="bar-1"></span>

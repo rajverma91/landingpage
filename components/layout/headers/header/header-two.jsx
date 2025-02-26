@@ -29,13 +29,13 @@ const HeaderTwo = ({variant}) => {
                 <div className="row">
                     <div className="col-xl-5 col-md-5">
                         <div className="top__bar-right">
-                        <Link href="/"><i className="fas fa-map-marker-alt"></i>6391 Elgin St. Celina, 10299</Link>
+                        <Link href="tel:+91 99885 32819"><i className="fas fa-phone"></i>+91 99885 32819</Link>
                         </div>
                     </div>
                     <div className="col-xl-7 col-md-7">
                         <div className="top__bar-left">
                             {/* <span><i className="fas fa-clock"></i>Working Hours : 10AM - 08PM</span> */}
-                            <Link href="mailto:info@borning.com"><i className="fas fa-envelope"></i>info@borning.com</Link>
+                            <Link href="mailto:info@borning.co"><i className="fas fa-envelope"></i>info@borning.co</Link>
                         </div>
                     </div>
                 </div>
@@ -71,10 +71,10 @@ const HeaderTwo = ({variant}) => {
                                 </div>
                             </div>
                             <div className="header__area-menubar-right-box-help">
-                                <i className="flaticon-phone-call"></i>
+                                <i className="fab fa-whatsapp"></i>
                                 <div className="header__area-menubar-right-box-help-info">
-                                    <span>Make a call</span>
-                                    <Link href="tel:+91 99885 32819">+91 99885 32819</Link>
+                                    <span>Get in Touch</span>
+                                    <Link href="https://wa.me/8288833007" target='_blank'>+91 82888 33007</Link>
                                 </div>
                             </div>
                         <div className="header__area-menubar-right-responsive-menu menu__bar">

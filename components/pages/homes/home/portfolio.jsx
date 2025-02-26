@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const PortfolioThree = () => {
     return (
-        <div className="portfolio__two section-padding pt-0">
+        <div id="portfolio" className="portfolio__two section-padding pt-0">
             <div className="container">
                 <div className="row justify-content-center text-center">
                     <div className="col-xl-6 col-lg-6">

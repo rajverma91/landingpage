@@ -8,7 +8,7 @@ import servicesData from "@/components/data/services-data";
 const FooterTwo = () => {
     return (
         <>
-        <div className="subscribe__one two">
+        <div id="contact" className="subscribe__one two">
             <div className="container">
                 <div className="row justify-content-center text-center subscribe__one-content" style={{backgroundImage: `url(${ctaBg.src})`}}>
                     <div className="col-xl-7 col-lg-8">
@@ -23,7 +23,7 @@ const FooterTwo = () => {
                                         <i className="flaticon-telephone-call"></i>
                                     </div>
                                     <div className="call-box-item-info">
-                                        <span>Make a call</span>
+                                        <span>Get in Touch</span>
                                         <Link href="tel:+91 99885 32819">+91 99885 32819</Link>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@ const FooterTwo = () => {
                                         const words = data.title.split(' ');
                                         const firstAndSecondWord = words.slice(0, 2).join(' ');
                                         return (
-                                            <li key={id}><Link href={`/services/${data.id}`}><i className="far fa-chevron-double-right"></i>{firstAndSecondWord}</Link></li>
+                                            <li key={id}><Link href={`/portfolio/${data.id}`}><i className="far fa-chevron-double-right"></i>{firstAndSecondWord}</Link></li>
                                         );
                                     })}
                                 </ul>
@@ -75,16 +75,16 @@ const FooterTwo = () => {
                                     </div>
                                     <div className="footer__one-widget-location-item-info email">
                                         <span>Email</span>
-                                        <Link href="mailto:info@borning.com">info@borning.com</Link>
+                                        <Link href="mailto:info@borning.co">info@borning.co</Link>
                                     </div>
                                 </div>
                                 <div className="footer__one-widget-location-item">
                                     <div className="footer__one-widget-location-item-icon">
-                                        <i className="flaticon-location"></i>
+                                    <i className="fab fa-whatsapp"></i>
                                     </div>
                                     <div className="footer__one-widget-location-item-info">
-                                        <span>Address</span>
-                                        <Link href="https://google.com/maps">321 Data Drive, Cloud City, WA 67890</Link>
+                                        <span>Get in Touch</span>
+                                        <Link href="https://wa.me/8288833007" target='_blank'>8288833007</Link>
                                     </div>
                                 </div>
                             </div>
@@ -114,8 +114,8 @@ const FooterTwo = () => {
                         </div>
                         <div className="col-xl-5 col-lg-6">
                             <div className="copyright__one-right">
-                                <Link href="/about">Privacy Policy</Link>
-                                <Link href="/contact">Contact Us</Link>
+                                <Link href="#">Privacy Policy</Link>
+                                <Link href="#">Contact Us</Link>
                             </div>
                         </div>
                     </div>

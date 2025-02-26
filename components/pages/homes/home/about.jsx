@@ -1,11 +1,11 @@
-import image1 from "../../../../public/assets/img/about/about-three.png";
-import image2 from "../../../../public/assets/img/about/about-three-2.png";
+import image2 from "../../../../public/assets/img/about/about-three.png";
+import image1 from "../../../../public/assets/img/about/about-three-2.png";
 import image3 from "../../../../public/assets/img/about/about-three-3.png";
 import Count from "../../common/count";
 
 const AboutThree = () => {
     return (
-        <div className="about__three section-padding">
+        <div id="aboutus" className="about__three section-padding">
             <div className="container">
                 <div className="row align-items-center gy-0">
                     <div className="col-xl-6 col-lg-6 col-md-10 col-sm-12">

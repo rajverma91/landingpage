@@ -4,7 +4,7 @@ import Link from 'next/link';
 const BlogThree = () => {
     return (
         <>
-            <div className="blog__three section-padding">
+            <div id='blog' className="blog__three section-padding">
                 <div className="container">
                     <div className="row gy-4 justify-content-between align-items-end mb-60">
                         <div className="col-xl-5 col-lg-7 col-md-8">

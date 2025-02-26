@@ -5,18 +5,18 @@ const MainMenu = () => {
         <>
             <ul>
                 <li className="menu-item-has-children">
-                    <Link href="#">Home</Link>
+                    <Link href="/">Home</Link>
                 </li>
-                <li className="menu-item-has-children"><Link href="#">About Us </Link>
+                <li className="menu-item-has-children"><Link href="#aboutus">About Us </Link>
                 </li>
                 <li className="menu-item-has-children">
-                    <Link href="#">Services </Link>
+                    <Link href="#services">Services </Link>
                 </li>
-                <li className="menu-item-has-children"><Link href="#">Portfolio</Link>
+                <li className="menu-item-has-children"><Link href="#portfolio">Portfolio</Link>
                 </li>
-                <li className="menu-item-has-children"><Link href="#">Blog</Link>
+                <li className="menu-item-has-children"><Link href="#blog">Blog</Link>
                 </li>
-                <li><Link href="">Contact</Link></li>
+                <li><Link href="#contact">Contact</Link></li>
             </ul>
         </>
     );

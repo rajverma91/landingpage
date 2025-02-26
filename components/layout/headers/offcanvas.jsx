@@ -13,7 +13,8 @@ const SideBar = ({ isOpen, setIsOpen }) => {
 					<img className='logo_one' src={logo2.src} alt="logo" />
 				</Link>
 				</div>
-				<p>The insurance company assumes the financial risk of covering these events in exchange for the premiums paid by the policyholder. There are many different types of insurance,</p>
+				<p>At Studio Borning, we craft immersive VR walkthroughs, 3D environments, and interactive spaces that bring visions to life. With cutting-edge technology and creative expertise, we transform ideas into unforgettable digital experiences.
+				</p>
 				<div className="header__area-menubar-right-sidebar-popup-contact">
 					<h4 className="mb-30">Get In Touch</h4>
 					<div className="header__area-menubar-right-sidebar-popup-contact-item">
@@ -21,8 +22,8 @@ const SideBar = ({ isOpen, setIsOpen }) => {
 							<i className="fal fa-phone-alt icon-animation"></i>
 						</div>
 						<div className="header__area-menubar-right-sidebar-popup-contact-item-content">
-							<span>Call Now</span>
-							<h6><Link href="tel:+91 99885 32819">+91 99885 32819</Link></h6>
+							<span>Get in Touch</span>
+							<h6><Link href="https://wa.me/8288833007" target='_blank'>+91 82888 33007</Link></h6>
 						</div>
 					</div>
 					<div className="header__area-menubar-right-sidebar-popup-contact-item">
@@ -31,18 +32,10 @@ const SideBar = ({ isOpen, setIsOpen }) => {
 						</div>
 						<div className="header__area-menubar-right-sidebar-popup-contact-item-content">
 							<span>Quick Email</span>
-							<h6><Link href="mailto:info@borning.com">info@borning.com</Link></h6>
+							<h6><Link href="mailto:info@borning.co">info@borning.co</Link></h6>
 						</div>
 					</div>
-					<div className="header__area-menubar-right-sidebar-popup-contact-item">
-						<div className="header__area-menubar-right-sidebar-popup-contact-item-icon">
-							<i className="fal fa-map-marker-alt"></i>
-						</div>
-						<div className="header__area-menubar-right-sidebar-popup-contact-item-content">
-							<span>Office Address</span>
-							<h6><Link href="/" target="_blank">PV3M+X68 Welshpool United Kingdom</Link></h6>
-						</div>
-					</div>
+					
 				</div>
 				<div className="header__area-menubar-right-sidebar-popup-social social__icon">
 					<Social />

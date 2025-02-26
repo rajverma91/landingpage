@@ -71,7 +71,7 @@ const HeaderTwo = ({variant}) => {
                                 </div>
                             </div>
                             <div className="header__area-menubar-right-box-help">
-                                <i className="fab fa-whatsapp"></i>
+                            <Link href="https://wa.me/8288833007" target='_blank'><i className="fab fa-whatsapp"></i></Link>
                                 <div className="header__area-menubar-right-box-help-info">
                                     <span>Get in Touch</span>
                                     <Link href="https://wa.me/8288833007" target='_blank'>+91 82888 33007</Link>

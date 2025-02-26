@@ -40,7 +40,7 @@ const AboutThree = () => {
                             <div className="row align-items-center">
                                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                     <div className="about__three-right-image1">
-                                        <img src={image2.src} alt="image" />
+                                        <img src={image3.src} alt="image" />
                                     </div>
                                    
                                 </div>

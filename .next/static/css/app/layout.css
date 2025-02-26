@@ -12088,4 +12088,18 @@ Responsive Menu Css
   line-height: 30px;
 }
 
+.about__three-right-image1 img {
+  --f: 1.15;
+  
+  -webkit-clip-path: inset(0);
+  
+          clip-path: inset(0);
+  transition: .4s;
+  cursor: pointer;
+}
+.about__three-right-image1 img:hover {
+  -webkit-clip-path: inset(calc((1 - 1/var(--f)) * 50%));
+          clip-path: inset(calc((1 - 1/var(--f)) * 50%));
+  scale: var(--f)
+}
 

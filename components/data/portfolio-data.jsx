@@ -127,7 +127,7 @@ Why wait for site visits when you can explore your future home from anywhere? Wi
 
 </ul>
 <h3>How It Works</h3>
-<iframe src="https://walkinside.s3.ap-south-1.amazonaws.com/motion/tour.html" height="600px" width="1200" title="Iframe Example"></iframe>
+<iframe src="https://cleogoldvt.s3.ap-south-1.amazonaws.com/tour.html" height="600px" width="1200" title="Iframe Example"></iframe>
 <ul><li> <strong>360° Walkthroughs</strong> – Navigate through the entire flat in an immersive experience.</li>
 <li> <strong>Detailed Room Overviews </strong>– See dimensions, layouts, and decor in real-time.</li>
 <li> <strong>Custom Branding </strong>– Developers & realtors can personalize tours with logos and information.</li>

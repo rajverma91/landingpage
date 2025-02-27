@@ -29,7 +29,7 @@ const HeaderTwo = ({variant}) => {
                 <div className="row">
                     <div className="col-xl-5 col-md-5">
                         <div className="top__bar-right">
-                        <Link href="tel:+91 99885 32819"><i className="fas fa-phone"></i>+91 99885 32819</Link>
+                        {/* <Link href="tel:+91 99885 32819"><i className="fas fa-phone"></i>+91 99885 32819</Link> */}
                         </div>
                     </div>
                     <div className="col-xl-7 col-md-7">

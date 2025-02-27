@@ -20,11 +20,11 @@ const FooterTwo = () => {
                             <div className="call-box">
                                 <div className="call-box-item">
                                     <div className="call-box-item-icon">
-                                        <i className="flaticon-telephone-call"></i>
+                                    <Link href="https://wa.me/8288833007" target='_blank'>  <i className="fab fa-whatsapp"></i></Link>
                                     </div>
                                     <div className="call-box-item-info">
                                         <span>Get in Touch</span>
-                                        <Link href="tel:+91 99885 32819">+91 99885 32819</Link>
+                                        <Link href="https://wa.me/8288833007" target='_blank'>+91 82888 33007</Link>
                                     </div>
                                 </div>
                             </div>

@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 const SEO = ({ pageTitle }) => {
   useEffect(() => {
-    document.title = pageTitle + " - Bantec - IT Services & Technology Next js Template";
+    document.title = pageTitle + " - At Borning Studio, we believe in the power of collaboration to bring ideas to life.";
   }, []);
 };
 
